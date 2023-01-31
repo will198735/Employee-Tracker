@@ -14,8 +14,8 @@ const db = mysql.createConnection(
       
       user: 'root',
       
-      password: '141414Pakita',
-      database: 'movies_db'
+      password: '',
+      database: 'tracker_db'
     },
     console.log(`Connected to the tracker_db database.`)
   );
