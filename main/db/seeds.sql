@@ -18,7 +18,8 @@ INSERT INTO roles (title, salary, departments_id)
           
           
         
-INSERT INTO employees (first_name, last_name, roles_id manager_id)
+INSERT INTO employees (first_name, last_name, roles_id, manager_id)
+
 
 
 VALUES     ('John', 'Doe', 1, NUll),
@@ -35,6 +36,14 @@ VALUES     ('John', 'Doe', 1, NUll),
            
          
            
+-- i try without the NULL word
 
 
-
+-- VALUES     ('John', 'Doe', 1),
+--            ('Mike', 'Chan', 2),
+--            ('Ashley', 'Rodriguez', 3),
+--            ('Kevin ', 'Topik ', 4, 3),
+--            ('Kunal ', 'Sinig ', 5),
+--            ('Malia', 'Brown', 6, 5),
+--            ('Sarah', 'Lourd' 7),
+--            ('Tom', 'Allen', 8, 7);
