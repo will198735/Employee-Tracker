@@ -55,3 +55,26 @@ const init = () => {
           }
       }).catch(err => console.error(err));
 }
+init();
+
+const viewDept = () => {
+    // console.log("Working")
+    db.query(`SELECT * FROM department`, (err, results) => {
+        err ? console.error(err) : console.table(results);
+        init();
+    })
+};
+
+const viewRoles = () => {
+    db.query(`SELECT * FROM roles`, (err, results) => {
+        err ? console.error(err) : console.table(results);
+        init();
+    })
+};
+
+const viewEmployees = () => {
+    db.query(`SELECT * FROM employees`, (err, results) => {
+        err ? console.error(err) : console.table(results);
+        init();
+    })
+}
