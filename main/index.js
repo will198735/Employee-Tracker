@@ -58,7 +58,7 @@ const init = () => {
 init();
 
 const viewDept = () => {
-    // console.log("Working")
+  
     db.query(`SELECT * FROM department`, (err, results) => {
         err ? console.error(err) : console.table(results);
         init();
@@ -131,7 +131,7 @@ const addRole = () => {
           db.promise().query(`SELECT id FROM department WHERE name = ?`, answer.addDept)
               .then(answer => {
                   let mappedId = answer[0].map(obj => obj.id);
-                  // console.log(mappedId[0])
+                
                   return mappedId[0]
               })
               .then((mappedId) => {
