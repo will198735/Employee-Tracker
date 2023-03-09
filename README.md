@@ -6,6 +6,9 @@ As a business owner, it would be helpful to be able to view and manage the depar
 
 
 ## Installetion
+video link https://drive.google.com/file/d/14x5xg1yiBWlrR6jLzQzdwS9ge_LfXnQH/view
+
+github url https://github.com/will198735/Employee-Tracker
 
 
 
